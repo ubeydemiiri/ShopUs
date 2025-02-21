@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+.section_contact__head_contact{
+background-color: #fffafe;
+}
+
+  
+.section_contact__head .phone{
+    border: 1px solid #ae1c9a;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.section_contact__head .address{
+background-color: #f9edf7;
+border-radius: 5px;
+padding: 10px;
+
+}
+
+
+/* ====== start foorm===== */
+.contact-form-input{
+    width: 90%;
+    padding: 12px;
+    font-size: 14px;
+    padding-left: 16px;
+}
+
+.contact-form-input-textarea{
+    padding-left: 32px;
+    font-size: 16px;
+    padding-top: 32px;
+    width: 90%;
+}
+.contact-form h3{
+   padding-top: 40px;
+   font-weight: 900;
+}
+.contact__foorm__button{
+    background-color: #ae1c9a;
+width: 90%;
+    padding: 10px 35px;
+    border: unset;
+    border-radius: 50px;
+
+   
+  }
+
+
+
+
+
+
+
+
+    /*=========staet  footer============ */
+    
+
+
+
+    .footer {
+        background: url("../assets/images/homepage-one/footer-bg.webp");
+        font-family: "League Spartan", sans-serif;
+      }
+      
+   
+      .footer-service-section {
+        background-color: #ae1c9a;
+        margin-top: 0;
+        border-radius: 5px;
+      }
+      .footer-service-section .service-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+      }
+      .footer-service-section .service-wrapper .service-info {
+        font-size: 1rem;
+        color: #FFFFFF;
+        margin-bottom: 0;
+      }
+      .footer-service-section .service-wrapper .service-details {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      @media (max-width:1023px) {
+        .footer-service-section .gy-4 {
+          --bs-gutter-y: 2rem;
+        }
+        .footer-service-section .service-wrapper {
+          justify-content: flex-start;
+        }
+      }
+      @media only screen and (min-width: 767px) and (max-width: 1200px) {
+        .footer-service-section .service-wrapper {
+          align-items: flex-start;
+        }
+      }
+      
+      .footer-section {
+        padding-top: 5rem;
+      }
+      .footer-section .logo {
+        margin-bottom: 3rem;
+      }
+      .footer-section .footer-heading {
+        font-size: 1.5rem;
+        color: #FFFFFF;
+      }
+  
+      .footer-section .footer-link a {
+        color: #c8c8c8;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+      .footer-section .footer-link a:hover {
+        color: #AE1C9A;
+        text-decoration: underline;
+      }
+      .footer-section .footer-link p {
+        color: #c8c8c8;
+      }
+      .footer-section .footer-link ul {
+        padding-left: 0;
+      }
+      .footer-section .footer-link ul li {
+        margin-bottom: 1rem;
+      }
+      .footer-section .footer-link .address {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        /* gap: 1rem; */
+      }
+      .footer-section .contact-link {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+      }
+      @media (max-width:767px) {
+        .footer-section .footer-link a {
+          font-size: 1.5rem !important;
+        }
+      }
+  
+      .footer {
+        margin-top:110px;
+      }
+      
+      .footer1{
+        background: url(https://quomodothemes.website/html/shopus/assets/images/homepage-one/footer-bg.webp);
+        font-family: "League Spartan", sans-serif;
+      
+      }
+      /*========= end  footer============ */
